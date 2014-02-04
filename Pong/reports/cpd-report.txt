@@ -1,0 +1,93 @@
+Found a 8 line (40 tokens) duplication in the following files: 
+Starting at line 169 of C:\Users\Paul\_programming\java\Programs\PongNoLib\src\org\crazystudios\pong\Pong.java
+Starting at line 202 of C:\Users\Paul\_programming\java\Programs\PongNoLib\src\org\crazystudios\pong\Pong.java
+
+					if (collision(player1, ball) || collision(player2, ball)) {
+						ball.reverseDirection();
+						if (!muted) {
+							beep.playClip(-15, false);
+						}
+					}
+
+			case GAME:
+=====================================================================
+Found a 2 line (34 tokens) duplication in the following files: 
+Starting at line 9 of C:\Users\Paul\_programming\java\Programs\PongNoLib\src\org\crazystudios\entity\Bat.java
+Starting at line 10 of C:\Users\Paul\_programming\java\Programs\PongNoLib\src\org\crazystudios\entity\Ball.java
+
+	public Bat(final int x, final int y, final int w, final int h, final int speed) {
+		super(x, y, w, h, speed);
+=====================================================================
+Found a 8 line (33 tokens) duplication in the following files: 
+Starting at line 45 of C:\Users\Paul\_programming\java\Programs\PongNoLib\src\org\crazystudios\entity\Bat.java
+Starting at line 61 of C:\Users\Paul\_programming\java\Programs\PongNoLib\src\org\crazystudios\entity\Bat.java
+
+				if (this.getY() < ball.getY()) {
+					
+					int newPos = this.getY();
+					newPos += this.getSpeed();
+					
+					this.setY(newPos);
+					
+				} else if (this.getY() > ball.getY()) {
+=====================================================================
+Found a 6 line (26 tokens) duplication in the following files: 
+Starting at line 26 of C:\Users\Paul\_programming\java\Programs\PongNoLib\src\org\crazystudios\entity\Bat.java
+Starting at line 52 of C:\Users\Paul\_programming\java\Programs\PongNoLib\src\org\crazystudios\entity\Bat.java
+
+		if (keyboard.up && !hitTop()) {
+				int newPos = this.getY();
+				newPos -= this.getSpeed();
+			
+				this.setY(newPos);
+		}
+=====================================================================
+Found a 7 line (25 tokens) duplication in the following files: 
+Starting at line 212 of C:\Users\Paul\_programming\java\Programs\PongNoLib\src\org\crazystudios\pong\Pong.java
+Starting at line 234 of C:\Users\Paul\_programming\java\Programs\PongNoLib\src\org\crazystudios\pong\Pong.java
+
+						try {
+							TimeUnit.MILLISECONDS.sleep(100);
+						} catch (InterruptedException e) {
+							e.printStackTrace();
+						}
+					}
+		}
+=====================================================================
+Found a 8 line (25 tokens) duplication in the following files: 
+Starting at line 223 of C:\Users\Paul\_programming\java\Programs\PongNoLib\src\org\crazystudios\pong\Pong.java
+Starting at line 232 of C:\Users\Paul\_programming\java\Programs\PongNoLib\src\org\crazystudios\pong\Pong.java
+
+					music.playClip(-15, true);
+					try {
+						TimeUnit.MILLISECONDS.sleep(100);
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
+					
+				} else {
+=====================================================================
+Found a 6 line (25 tokens) duplication in the following files: 
+Starting at line 34 of C:\Users\Paul\_programming\java\Programs\PongNoLib\src\org\crazystudios\entity\Bat.java
+Starting at line 45 of C:\Users\Paul\_programming\java\Programs\PongNoLib\src\org\crazystudios\entity\Bat.java
+
+		if (keyboard.down && !hitBottom(screenHeight)) {
+				int newPos = this.getY();
+				newPos += this.getSpeed();
+			
+				this.setY(newPos);
+		}
+=====================================================================
+Found a 9 line (25 tokens) duplication in the following files: 
+Starting at line 52 of C:\Users\Paul\_programming\java\Programs\PongNoLib\src\org\crazystudios\entity\Bat.java
+Starting at line 69 of C:\Users\Paul\_programming\java\Programs\PongNoLib\src\org\crazystudios\entity\Bat.java
+
+				} else if (this.getY() > ball.getY()) {
+					
+					int newPos = this.getY();
+					newPos -= this.getSpeed();
+					
+					this.setY(newPos);
+					
+				}
+		} else {

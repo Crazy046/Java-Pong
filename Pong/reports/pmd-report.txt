@@ -1,0 +1,138 @@
+src/org/crazystudios/entity/Ball.java:6:	A Classname should have a minimum of five characters
+src/org/crazystudios/entity/Ball.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/org/crazystudios/entity/Ball.java:10:	Avoid variables with short names like h
+src/org/crazystudios/entity/Ball.java:10:	Avoid variables with short names like w
+src/org/crazystudios/entity/Ball.java:10:	Avoid variables with short names like x
+src/org/crazystudios/entity/Ball.java:10:	Avoid variables with short names like y
+src/org/crazystudios/entity/Ball.java:20:	Potential violation of Law of Demeter (method chain calls)
+src/org/crazystudios/entity/Ball.java:20:	Potential violation of Law of Demeter (method chain calls)
+src/org/crazystudios/entity/Ball.java:23:	Avoid variables with short names like x
+src/org/crazystudios/entity/Ball.java:23:	Avoid variables with short names like y
+src/org/crazystudios/entity/Ball.java:48:	Potential violation of Law of Demeter (method chain calls)
+src/org/crazystudios/entity/Ball.java:48:	Potential violation of Law of Demeter (method chain calls)
+src/org/crazystudios/entity/Ball.java:52:	Potential violation of Law of Demeter (method chain calls)
+src/org/crazystudios/entity/Ball.java:52:	Potential violation of Law of Demeter (method chain calls)
+src/org/crazystudios/entity/Bat.java:7:	A Classname should have a minimum of five characters
+src/org/crazystudios/entity/Bat.java:9:	Avoid variables with short names like h
+src/org/crazystudios/entity/Bat.java:9:	Avoid variables with short names like w
+src/org/crazystudios/entity/Bat.java:9:	Avoid variables with short names like x
+src/org/crazystudios/entity/Bat.java:9:	Avoid variables with short names like y
+src/org/crazystudios/entity/Bat.java:14:	Potential violation of Law of Demeter (method chain calls)
+src/org/crazystudios/entity/Bat.java:14:	Potential violation of Law of Demeter (method chain calls)
+src/org/crazystudios/entity/Bat.java:21:	Avoid variables with short names like y
+src/org/crazystudios/entity/Bat.java:82:	Avoid using Literals in Conditional Statements
+src/org/crazystudios/entity/Bat.java:90:	Parameter 'screenHeight' is not assigned and could be declared final
+src/org/crazystudios/entity/Bat.java:93:	Potential violation of Law of Demeter (method chain calls)
+src/org/crazystudios/entity/Bat.java:93:	Potential violation of Law of Demeter (method chain calls)
+src/org/crazystudios/entity/Entity.java:6:	Avoid variables with short names like h
+src/org/crazystudios/entity/Entity.java:6:	Avoid variables with short names like w
+src/org/crazystudios/entity/Entity.java:6:	Avoid variables with short names like x
+src/org/crazystudios/entity/Entity.java:6:	Avoid variables with short names like y
+src/org/crazystudios/entity/Entity.java:8:	Avoid variables with short names like h
+src/org/crazystudios/entity/Entity.java:8:	Avoid variables with short names like w
+src/org/crazystudios/entity/Entity.java:8:	Avoid variables with short names like x
+src/org/crazystudios/entity/Entity.java:8:	Avoid variables with short names like y
+src/org/crazystudios/entity/Entity.java:22:	Avoid variables with short names like x
+src/org/crazystudios/entity/Entity.java:23:	Avoid variables with short names like y
+src/org/crazystudios/entity/Entity.java:24:	Avoid variables with short names like w
+src/org/crazystudios/entity/Entity.java:25:	Avoid variables with short names like h
+src/org/crazystudios/graphics/Art.java:12:	A Classname should have a minimum of five characters
+src/org/crazystudios/graphics/Art.java:12:	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/org/crazystudios/graphics/Art.java:35:	Method names should not start with capital letters
+src/org/crazystudios/graphics/Art.java:35:	Parameter 'string' is not assigned and could be declared final
+src/org/crazystudios/graphics/Art.java:39:	Avoid variables with short names like bi
+src/org/crazystudios/graphics/Art.java:41:	Avoid variables with short names like w
+src/org/crazystudios/graphics/Art.java:41:	Potential violation of Law of Demeter (object not created locally)
+src/org/crazystudios/graphics/Art.java:42:	Avoid variables with short names like h
+src/org/crazystudios/graphics/Art.java:42:	Potential violation of Law of Demeter (object not created locally)
+src/org/crazystudios/graphics/Art.java:45:	Potential violation of Law of Demeter (object not created locally)
+src/org/crazystudios/graphics/Art.java:50:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/org/crazystudios/graphics/Images.java:21:	Avoid reassigning parameters such as 'x'
+src/org/crazystudios/graphics/Images.java:21:	Avoid reassigning parameters such as 'y'
+src/org/crazystudios/graphics/Images.java:21:	Avoid variables with short names like x
+src/org/crazystudios/graphics/Images.java:21:	Avoid variables with short names like y
+src/org/crazystudios/graphics/Images.java:23:	Avoid variables with short names like x1
+src/org/crazystudios/graphics/Images.java:24:	Avoid variables with short names like y1
+src/org/crazystudios/graphics/Images.java:25:	Avoid using Literals in Conditional Statements
+src/org/crazystudios/graphics/Images.java:26:	Avoid using Literals in Conditional Statements
+src/org/crazystudios/graphics/Images.java:29:	Avoid variables with short names like ww
+src/org/crazystudios/graphics/Images.java:29:	Found 'DU'-anomaly for variable 'ww' (lines '29'-'42').
+src/org/crazystudios/graphics/Images.java:32:	Avoid variables with short names like tp
+src/org/crazystudios/graphics/Images.java:33:	Avoid variables with short names like sp
+src/org/crazystudios/graphics/Images.java:33:	Useless parentheses.
+src/org/crazystudios/graphics/Images.java:33:	Useless parentheses.
+src/org/crazystudios/graphics/Images.java:36:	Local variable 'col' could be declared final
+src/org/crazystudios/graphics/Images.java:37:	Avoid using Literals in Conditional Statements
+src/org/crazystudios/graphics/Screen.java:18:	Comment is too large: Too many lines
+src/org/crazystudios/input/Button.java:11:	Avoid variables with short names like x
+src/org/crazystudios/input/Button.java:11:	Avoid variables with short names like y
+src/org/crazystudios/input/Button.java:15:	Avoid variables with short names like x
+src/org/crazystudios/input/Button.java:15:	Avoid variables with short names like y
+src/org/crazystudios/input/Button.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/org/crazystudios/input/Button.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/org/crazystudios/input/Button.java:39:	Potential violation of Law of Demeter (method chain calls)
+src/org/crazystudios/input/Button.java:39:	Potential violation of Law of Demeter (method chain calls)
+src/org/crazystudios/input/Keyboard.java:10:	Avoid variables with short names like up
+src/org/crazystudios/input/Keyboard.java:21:	Avoid variables with short names like e
+src/org/crazystudios/input/Keyboard.java:21:	Parameter 'e' is not assigned and could be declared final
+src/org/crazystudios/input/Keyboard.java:22:	Potential violation of Law of Demeter (method chain calls)
+src/org/crazystudios/input/Keyboard.java:25:	Avoid variables with short names like e
+src/org/crazystudios/input/Keyboard.java:25:	Parameter 'e' is not assigned and could be declared final
+src/org/crazystudios/input/Keyboard.java:26:	Potential violation of Law of Demeter (method chain calls)
+src/org/crazystudios/input/Keyboard.java:29:	Document empty method
+src/org/crazystudios/input/Keyboard.java:29:	Parameter 'arg0' is not assigned and could be declared final
+src/org/crazystudios/pong/Pong.java:1:	Possible God class (WMC=51, ATFD=65, TCC=0.19047619047619047)
+src/org/crazystudios/pong/Pong.java:24:	A Classname should have a minimum of five characters
+src/org/crazystudios/pong/Pong.java:24:	The class 'Pong' has a Cyclomatic Complexity of 7 (Highest = 27).
+src/org/crazystudios/pong/Pong.java:24:	To be compliant to J2EE, a webapp should not use any thread.
+src/org/crazystudios/pong/Pong.java:24:	Too many fields
+src/org/crazystudios/pong/Pong.java:33:	To be compliant to J2EE, a webapp should not use any thread.
+src/org/crazystudios/pong/Pong.java:99:	Found 'DU'-anomaly for variable 'lastTime' (lines '99'-'138').
+src/org/crazystudios/pong/Pong.java:100:	Avoid variables with short names like ns
+src/org/crazystudios/pong/Pong.java:100:	Found 'DU'-anomaly for variable 'ns' (lines '100'-'138').
+src/org/crazystudios/pong/Pong.java:101:	Found 'DU'-anomaly for variable 'timer' (lines '101'-'138').
+src/org/crazystudios/pong/Pong.java:103:	Found 'DU'-anomaly for variable 'delta' (lines '103'-'138').
+src/org/crazystudios/pong/Pong.java:104:	Found 'DD'-anomaly for variable 'fps' (lines '104'-'125').
+src/org/crazystudios/pong/Pong.java:104:	Found 'DU'-anomaly for variable 'fps' (lines '104'-'138').
+src/org/crazystudios/pong/Pong.java:105:	Found 'DD'-anomaly for variable 'tick' (lines '105'-'117').
+src/org/crazystudios/pong/Pong.java:105:	Found 'DU'-anomaly for variable 'tick' (lines '105'-'138').
+src/org/crazystudios/pong/Pong.java:113:	Found 'DU'-anomaly for variable 'lastTime' (lines '113'-'138').
+src/org/crazystudios/pong/Pong.java:117:	Found 'DD'-anomaly for variable 'tick' (lines '117'-'117').
+src/org/crazystudios/pong/Pong.java:117:	Found 'DU'-anomaly for variable 'tick' (lines '117'-'138').
+src/org/crazystudios/pong/Pong.java:125:	Found 'DD'-anomaly for variable 'fps' (lines '125'-'125').
+src/org/crazystudios/pong/Pong.java:125:	Found 'DU'-anomaly for variable 'fps' (lines '125'-'138').
+src/org/crazystudios/pong/Pong.java:127:	Avoid using Literals in Conditional Statements
+src/org/crazystudios/pong/Pong.java:130:	Found 'DD'-anomaly for variable 'fps' (lines '130'-'125').
+src/org/crazystudios/pong/Pong.java:130:	Found 'DU'-anomaly for variable 'fps' (lines '130'-'138').
+src/org/crazystudios/pong/Pong.java:131:	Found 'DD'-anomaly for variable 'tick' (lines '131'-'117').
+src/org/crazystudios/pong/Pong.java:131:	Found 'DU'-anomaly for variable 'tick' (lines '131'-'138').
+src/org/crazystudios/pong/Pong.java:140:	Avoid really long methods.
+src/org/crazystudios/pong/Pong.java:140:	The method 'ticks' has a Cyclomatic Complexity of 27.
+src/org/crazystudios/pong/Pong.java:140:	The method ticks() has an NPath complexity of 880
+src/org/crazystudios/pong/Pong.java:143:	A high ratio of statements to labels in a switch statement.  Consider refactoring.
+src/org/crazystudios/pong/Pong.java:143:	A switch statement does not contain a break
+src/org/crazystudios/pong/Pong.java:143:	Switch statements should have a default label
+src/org/crazystudios/pong/Pong.java:152:	System.exit() should not be used in J2EE/JEE apps
+src/org/crazystudios/pong/Pong.java:177:	Avoid if (x != y) ..; else ..;
+src/org/crazystudios/pong/Pong.java:186:	Potential violation of Law of Demeter (static property access)
+src/org/crazystudios/pong/Pong.java:188:	Avoid printStackTrace(); use a logger call instead.
+src/org/crazystudios/pong/Pong.java:188:	Potential violation of Law of Demeter (object not created locally)
+src/org/crazystudios/pong/Pong.java:213:	Potential violation of Law of Demeter (static property access)
+src/org/crazystudios/pong/Pong.java:215:	Avoid printStackTrace(); use a logger call instead.
+src/org/crazystudios/pong/Pong.java:215:	Potential violation of Law of Demeter (object not created locally)
+src/org/crazystudios/pong/Pong.java:225:	Potential violation of Law of Demeter (static property access)
+src/org/crazystudios/pong/Pong.java:227:	Avoid printStackTrace(); use a logger call instead.
+src/org/crazystudios/pong/Pong.java:227:	Potential violation of Law of Demeter (object not created locally)
+src/org/crazystudios/pong/Pong.java:235:	Potential violation of Law of Demeter (static property access)
+src/org/crazystudios/pong/Pong.java:237:	Avoid printStackTrace(); use a logger call instead.
+src/org/crazystudios/pong/Pong.java:237:	Potential violation of Law of Demeter (object not created locally)
+src/org/crazystudios/pong/Pong.java:244:	The method 'render' has a Cyclomatic Complexity of 10.
+src/org/crazystudios/pong/Pong.java:251:	Avoid variables with short names like g
+src/org/crazystudios/pong/Pong.java:251:	Potential violation of Law of Demeter (object not created locally)
+src/org/crazystudios/pong/Pong.java:262:	Switch statements should have a default label
+src/org/crazystudios/pong/Pong.java:275:	Switch statements should have a default label
+src/org/crazystudios/pong/Pong.java:300:	Potential violation of Law of Demeter (object not created locally)
+src/org/crazystudios/pong/Pong.java:302:	Potential violation of Law of Demeter (object not created locally)
+src/org/crazystudios/pong/Pong.java:303:	Potential violation of Law of Demeter (object not created locally)
+src/org/crazystudios/pong/Pong.java:320:	To be compliant to J2EE, a webapp should not use any thread.
+src/org/crazystudios/sound/Sound.java:34:	Potential violation of Law of Demeter (object not created locally)
